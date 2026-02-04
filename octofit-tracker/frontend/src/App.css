@@ -1,0 +1,186 @@
+/* OctoFit Tracker Custom Styles */
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+}
+
+/* Navigation Bar Enhancements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Page Container */
+.page-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1400px;
+}
+
+/* Home Page Styling */
+.home-container {
+  background: white;
+  border-radius: 15px;
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin: 3rem auto;
+  max-width: 900px;
+}
+
+.home-title {
+  color: #667eea;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.home-lead {
+  color: #6c757d;
+  font-size: 1.25rem;
+}
+
+/* Card Enhancements */
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Table Enhancements */
+.table-container {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+.table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Page Headers */
+.page-header {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Loading and Error States */
+.loading-container,
+.error-container {
+  background: white;
+  border-radius: 10px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.loading-spinner {
+  color: #667eea;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+/* Badge Styling */
+.badge-rank {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.badge-rank-1 {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #000;
+}
+
+.badge-rank-2 {
+  background: linear-gradient(135deg, #C0C0C0 0%, #808080 100%);
+  color: #000;
+}
+
+.badge-rank-3 {
+  background: linear-gradient(135deg, #CD7F32 0%, #8B4513 100%);
+  color: #fff;
+}
+
+/* List Group Enhancements */
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  padding: 0.75rem 1rem;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .page-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .home-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .table-container {
+    padding: 0.5rem;
+    overflow-x: auto;
+  }
+}
