@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { API_ENDPOINTS } from '../config/api';
 
+// API Endpoint: https://urban-fiesta-x95664gxq99fpqxv-8000.app.github.dev/api/workouts/
 function Workouts() {
   const [workouts, setWorkouts] = useState([]);
   const [loading, setLoading] = useState(true);
